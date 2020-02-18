@@ -1,0 +1,6 @@
+D:\Programs\Project\Project_11\obj\Debug\Project_11.csprojAssemblyReference.cache
+D:\Programs\Project\Project_11\bin\Debug\Project_11.exe.config
+D:\Programs\Project\Project_11\bin\Debug\Project_11.exe
+D:\Programs\Project\Project_11\bin\Debug\Project_11.pdb
+D:\Programs\Project\Project_11\obj\Debug\Project_11.exe
+D:\Programs\Project\Project_11\obj\Debug\Project_11.pdb

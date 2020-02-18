@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="_11_project.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:_11_project"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <!-- Tic toc tac -->
+    <Grid>
+        <Button x:Name="Button_7" Content="" Height="150" Margin="395,108,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_8" Content="" Height="150" Margin="645,108,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_9" Content="" Height="150" Margin="895,108,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_4" Content="" Height="150" Margin="395,288,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_5" Content="" Height="150" Margin="645,288,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_6" Content="" Height="150" Margin="895,288,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_1" Content="" Height="150" Margin="395,468,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_2" Content="" Height="150" Margin="645,468,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Button_3" Content="" Height="150" Margin="895,468,0,0" VerticalAlignment="Top" Width="183" Click="Button_1_Click" FontSize="60"/>
+        <Button x:Name="Start_the_game" Content="Start the game" Height="89" Margin="325,662,0,0" VerticalAlignment="Top" Width="411" FontSize="50" Click="Start_the_game_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="73,65,0,0" Text="Счетчик: " TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35"/>
+        <TextBlock x:Name="count_x" HorizontalAlignment="Left" Margin="70,127,0,0" Text="Х:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Width="117"/>
+        <TextBlock x:Name="count_o" HorizontalAlignment="Left" Margin="73,202,0,0" Text="0:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="40" Width="114"/>
+        <TextBlock HorizontalAlignment="Left" Margin="986,680,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="35" Height="69" Width="335"><Span FontFamily="Consolas" Foreground="Green" FontSize="12,6666666666667"/></TextBlock>
+        <TextBlock x:Name="Name" HorizontalAlignment="Left" Margin="581,0,0,0" Text="Tic tac toe" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="65" Height="127" Width="355" FontWeight="Bold"/>
+        <Button x:Name="but_reset" Content="F" Height="89" Margin="781,662,0,0" VerticalAlignment="Top" Width="411" FontSize="50" Click="but_reset_Click"/>
+        <CheckBox x:Name="Choice" Content="Computer " Height="113" Margin="87,468,0,0" VerticalAlignment="Top" Width="125"/>
+
+    </Grid>
+</Page>
